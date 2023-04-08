@@ -1,0 +1,21 @@
+.square {
+  width: 100px;
+  height: 100px;
+
+  background-color: rgb(152, 255, 179);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.square h1 {
+  font-weight: 200;
+  font-size: 60px;
+}
+.square:hover {
+  background-color: rgb(125, 225, 150);
+}
+.square:active {
+  background-color: rgb(152, 255, 179);
+}

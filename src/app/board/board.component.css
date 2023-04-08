@@ -1,0 +1,28 @@
+.board {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 2px;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 30px;
+  color: white;
+}
+
+.btn {
+  padding: 15px;
+  background-color: rgb(204, 143, 235);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  float: right;
+}
+
+.btn:hover {
+  background-color: rgb(190, 120, 200);
+}
+.btn:active {
+  background-color: rgb(204, 143, 235);
+}

@@ -1,0 +1,14 @@
+<p *ngIf="!winner && !noWinner">Turn: {{ player }}</p>
+<p *ngIf="winner">Player {{ winner }} Won!</p>
+<p *ngIf="noWinner && !winner">There is no winner.</p>
+<div class="board">
+  <app-square
+    [mark]="square"
+    *ngFor="let square of squares; let i = index"
+    (click)="onClickSquare(i)"
+  ></app-square>
+</div>
+<br>
+<button class="btn" (click)="onNewGame()">New Game</button>
+
+
